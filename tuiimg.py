@@ -43,4 +43,4 @@ if __name__ == '__main__':
     print('图片下载器v1.1')
     print('打开主页:https://www.tuiimg.com/meinv/ 挑选喜欢的妹子点进去 再把url链接复制粘贴到下面, 再按回车即可!')
     url = input('\n快速下载:')
-    download(url)##获取链接下载
+    download(url)##获取链接下载 
