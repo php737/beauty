@@ -2,7 +2,7 @@ import  requests,os,threading
 from lxml import etree
 from tqdm  import  tqdm
 
-
+#网站:https://everia.club/ 
 headers={'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 MicroMessenger/5.4.1 NetType/5G'}
 def  path(title):
     path = title  # 设置输出文件夹
