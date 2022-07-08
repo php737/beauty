@@ -2,7 +2,6 @@ import  requests,os,threading,time
 from lxml import etree
 from tqdm  import  tqdm
 start = time.perf_counter()
-# 网站http://www.502x.com/
 headers={'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1'}
 
 def  path(title):
@@ -37,6 +36,6 @@ def download(url):
     print('下载OK!')
 
 if __name__ == '__main__':
-    download('http://www.502x.com/yuhuajie/207-all.html')#必须是全图模式
+    download('http://www.502x.com/yuhuajie/207-all.html')#必须是全图模式  网站http://www.502x.com/ 选需要的地址
     end = time.perf_counter()
     print('耗时{:.2f}秒'.format(end-start))
