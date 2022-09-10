@@ -45,5 +45,5 @@ def download(url):
 
 
 if __name__ == '__main__':
-    download('https://www.f4mn.com/beauty/20220907/26919.html')
+    download('https://www.f4mn.com/beauty/20220907/26919.html') #打开网站选妹子 url  直接开始下载 多线程的
     print('总共耗时{:.2f}秒'.format(time.perf_counter() - start))
