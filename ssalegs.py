@@ -1,7 +1,7 @@
 import requests,threading,time,os,base64
 from tqdm import tqdm
 headers={'User-Agent': 'iPhone14,2(iOS/16.4.1) Uninview(Uninview/1.0.0) Weex/0.26.0 1125x2436'}
-ip= '192.168.33.2:1082' #代理
+ip= '' #代理
 proxies={'http':'http://' + ip, 'https':'http://' + ip}
 ssa_url=base64.b64decode('d3d3LnNzYWxlZ3Muc3RvcmU=').decode("utf-8")
 def run(i,url,path_title):#数量,链接,名称路径
